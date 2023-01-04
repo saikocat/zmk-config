@@ -1,0 +1,5 @@
+# Copyright 2022 saikocat (@saikocat)
+# SPDX-License-Identifier: MIT
+
+config SHIELD_SETTINGS_RESET_XIAO
+    def_bool $(shields_list_contains,settings_reset_xiao)

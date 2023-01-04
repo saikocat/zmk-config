@@ -1,0 +1,17 @@
+// Copyright 2022 saikocat (@saikocat)
+// SPDX-License-Identifier: MIT
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+    &reset
+            >;
+        };
+    };
+};
