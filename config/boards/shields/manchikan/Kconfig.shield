@@ -1,0 +1,8 @@
+# Copyright 2022 saikocat (@saikocat)
+# SPDX-License-Identifier: MIT
+
+config SHIELD_MANCHIKAN_LEFT
+    def_bool $(shields_list_contains,manchikan_left)
+
+config SHIELD_MANCHIKAN_RIGHT
+    def_bool $(shields_list_contains,manchikan_right)

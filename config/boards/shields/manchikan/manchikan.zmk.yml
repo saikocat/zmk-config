@@ -1,0 +1,11 @@
+file_format: "1"
+id: manchikan
+name: Manchikan
+type: shield
+url: https://github.com/saikocat
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - manchikan_left
+  - manchikan_right
