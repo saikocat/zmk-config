@@ -4,7 +4,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    six_columns_42keys_transform: keymap_transform_0 {
+    six_columns_42keys_transform: keymap_transform_100 {
         compatible = "zmk,matrix-transform";
         columns = <12>;
         rows = <4>;
@@ -20,7 +20,7 @@
         >;
     };
 
-    six_columns_42keys_stacked_transform: keymap_transform_1 {
+    six_columns_42keys_stacked_transform: keymap_transform_101 {
         compatible = "zmk,matrix-transform";
         columns = <12>;
         rows = <4>;
@@ -44,7 +44,7 @@
         >;
     };
 
-    five_columns_36keys_transform: keymap_transform_10 {
+    five_columns_36keys_transform: keymap_transform_200 {
         compatible = "zmk,matrix-transform";
         columns = <10>;
         rows = <4>;
@@ -60,7 +60,7 @@
         >;
     };
 
-    five_columns_36keys_stacked_transform: keymap_transform_11 {
+    five_columns_36keys_stacked_transform: keymap_transform_201 {
         compatible = "zmk,matrix-transform";
         columns = <10>;
         rows = <4>;
@@ -85,7 +85,7 @@
     };
 
 
-    five_columns_34keys_transform: keymap_transform_20 {
+    five_columns_34keys_transform: keymap_transform_210 {
         compatible = "zmk,matrix-transform";
         columns = <10>;
         rows = <4>;
@@ -101,7 +101,7 @@
         >;
     };
 
-    five_columns_34keys_stacked_transform: keymap_transform_21 {
+    five_columns_34keys_stacked_transform: keymap_transform_211 {
         compatible = "zmk,matrix-transform";
         columns = <10>;
         rows = <4>;
