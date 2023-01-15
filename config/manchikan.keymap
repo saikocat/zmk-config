@@ -8,7 +8,7 @@
 #define COMBO_LAYERS _QWERTY _COLEMAK_DH _NAV _NUMPAD
 
 #include "userspace/keymaps.h"
-#include "userspace/keypos_morph/keypos_34keys.h"
+#include "userspace/keypos_morph/keypos_34keys_stacked.h"
 #include "userspace/matrix_transforms.dtsi"
 #include "userspace/behaviors.dtsi"
 #include "userspace/combos.dtsi"

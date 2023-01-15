@@ -24,7 +24,7 @@ COMBO(num9,           &kp N9,            KPM_RB4 KPM_RT3,                 COMBO_
 // Parenthesis, bracket, and brace
 COMBO(lpar,           &kp LPAR,          KPM_LT3 KPM_LM1,                 COMBO_LAYERS)
 COMBO(rpar,           &kp RPAR,          KPM_RT3 KPM_RM1,                 COMBO_LAYERS)
-COMBO(lbkt,           &kp LBKT,          KPM_LT3 KPM_RT1,                 COMBO_LAYERS)
+COMBO(lbkt,           &kp LBKT,          KPM_LT3 KPM_LT1,                 COMBO_LAYERS)
 COMBO(rbkt,           &kp RBKT,          KPM_RT3 KPM_RT1,                 COMBO_LAYERS)
 COMBO(lbrc,           &kp LBRC,          KPM_LT3 KPM_LM2,                 COMBO_LAYERS)
 COMBO(rbrc,           &kp RBRC,          KPM_RT3 KPM_RM2,                 COMBO_LAYERS)
@@ -43,8 +43,8 @@ COMBO(fslh,           &kp FSLH,          KPM_RB1 KPM_RM2,                 COMBO_
 COMBO(bslh,           &kp BSLH,          KPM_RM2 KPM_RB3,                 COMBO_LAYERS)
 
 // Shell Symbols
-COMBO(grave,          &kp GRAVE,         KPM_LM1 KPM_LB2,                 COMBO_LAYERS)
-COMBO(tilde,          &kp TILDE,         KPM_LB1 KPM_LM4,                 COMBO_LAYERS)
+COMBO(grave,          &kp GRAVE,         KPM_LM3 KPM_LB2,                 COMBO_LAYERS)
+COMBO(tilde,          &kp TILDE,         KPM_LB3 KPM_LM1,                 COMBO_LAYERS)
 
 // Quotes & Punctuations
 COMBO(colon,          &kp COLON,         KPM_RM1 KPM_RM2,                 COMBO_LAYERS)
@@ -60,13 +60,14 @@ COMBO(hash,           &kp HASH,          KPM_LM3 KPM_LT1,                 COMBO_
 COMBO(dollar,         &kp DOLLAR,        KPM_LM3 KPM_LB1,                 COMBO_LAYERS)
 COMBO(percent,        &kp PERCENT,       KPM_RB1 KPM_RM3,                 COMBO_LAYERS)
 COMBO(caret,          &kp CARET,         KPM_LM2 KPM_LB1,                 COMBO_LAYERS)
-COMBO(ampersand,      &kp AMPS,          KPM_LT2 KPM_LM3,                 COMBO_LAYERS)
+COMBO(ampersand,      &kp AMPS,          KPM_LT2 KPM_LM1,                 COMBO_LAYERS)
 COMBO(asterisk,       &kp ASTRK,         KPM_RT1 KPM_RT2,                 COMBO_LAYERS)
 
 // System - Vim
 COMBO(esc,            &kp ESC,           KPM_LT2 KPM_LT1,                 COMBO_LAYERS)
-COMBO(tab,            &kp TAB,           KPM_RT2 KPM_RT1,                 COMBO_LAYERS)
+COMBO(tab,            &kp TAB,           KPM_LM2 KPM_LM1,                 COMBO_LAYERS)
 COMBO(enter,          &kp ENTER,         KPM_LB2 KPM_LB1,                 COMBO_LAYERS)
+COMBO(enter_bot_l,    &kp ENTER,         KPM_LB0 KPM_LB1,                 COMBO_LAYERS)
 COMBO(enter_cross,    &kp ENTER,         KPM_LM1 KPM_RM1,                 COMBO_LAYERS)
 COMBO(enter_thumb,    &kp ENTER,         KPM_LH0 KPM_RH0,                 COMBO_LAYERS)
 
