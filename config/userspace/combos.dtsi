@@ -79,7 +79,7 @@ COMBO(lalt,           &skq LALT,         KPM_LB3 KPM_LB4,                 COMBO_
 COMBO(lgui,           &skq LGUI,         KPM_LM4 KPM_LB4,                 COMBO_LAYERS)
 
 // Utility
-COMBO(word_del,       &kp LS(BSPC),      KPM_RT2 KPM_RT3,                 COMBO_LAYERS)
+COMBO(word_del,       &kp LC(BSPC),      KPM_RT2 KPM_RT3,                 COMBO_LAYERS)
 
 // Repeat
 COMBO(repeat,         &key_repeat,       KPM_LB3 KPM_LB2,                 COMBO_LAYERS)
