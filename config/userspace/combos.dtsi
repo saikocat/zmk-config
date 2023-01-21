@@ -10,16 +10,27 @@
 // name, combo_bindings, keypos, combo_layers, combo_timeout
 
 // Numpad
-COMBO(num1,           &kp N0,            KPM_RB4 KPM_RH1,                 COMBO_LAYERS)
-COMBO(num1,           &kp N1,            KPM_RB4 KPM_RB1,                 COMBO_LAYERS)
-COMBO(num2,           &kp N2,            KPM_RB4 KPM_RB2,                 COMBO_LAYERS)
-COMBO(num3,           &kp N3,            KPM_RB4 KPM_RB3,                 COMBO_LAYERS)
-COMBO(num4,           &kp N4,            KPM_RB4 KPM_RM1,                 COMBO_LAYERS)
-COMBO(num5,           &kp N5,            KPM_RB4 KPM_RM2,                 COMBO_LAYERS)
-COMBO(num6,           &kp N6,            KPM_RB4 KPM_RM3,                 COMBO_LAYERS)
-COMBO(num7,           &kp N7,            KPM_RB4 KPM_RT1,                 COMBO_LAYERS)
-COMBO(num8,           &kp N8,            KPM_RB4 KPM_RT2,                 COMBO_LAYERS)
-COMBO(num9,           &kp N9,            KPM_RB4 KPM_RT3,                 COMBO_LAYERS)
+COMBO(numpad1,        &kp N0,            KPM_RH1 KPM_RM0,                 COMBO_LAYERS)
+COMBO(numpad1,        &kp N1,            KPM_RH1 KPM_RB1,                 COMBO_LAYERS)
+COMBO(numpad2,        &kp N2,            KPM_RH1 KPM_RB2,                 COMBO_LAYERS)
+COMBO(numpad3,        &kp N3,            KPM_RH1 KPM_RB3,                 COMBO_LAYERS)
+COMBO(numpad4,        &kp N4,            KPM_RH1 KPM_RM1,                 COMBO_LAYERS)
+COMBO(numpad5,        &kp N5,            KPM_RH1 KPM_RM2,                 COMBO_LAYERS)
+COMBO(numpad6,        &kp N6,            KPM_RH1 KPM_RM3,                 COMBO_LAYERS)
+COMBO(numpad7,        &kp N7,            KPM_RH1 KPM_RT1,                 COMBO_LAYERS)
+COMBO(numpad8,        &kp N8,            KPM_RH1 KPM_RT2,                 COMBO_LAYERS)
+COMBO(numpad9,        &kp N9,            KPM_RH1 KPM_RT3,                 COMBO_LAYERS)
+
+COMBO(num0,           &kp N0,            KPM_RT4 KPM_RM4,                 COMBO_LAYERS)
+COMBO(num1,           &kp N1,            KPM_LT4 KPM_LM4,                 COMBO_LAYERS)
+COMBO(num2,           &kp N2,            KPM_LT3 KPM_LM3,                 COMBO_LAYERS)
+COMBO(num3,           &kp N3,            KPM_LT2 KPM_LM2,                 COMBO_LAYERS)
+COMBO(num4,           &kp N4,            KPM_LT1 KPM_LM1,                 COMBO_LAYERS)
+COMBO(num5,           &kp N5,            KPM_LT0 KPM_LM0,                 COMBO_LAYERS)
+COMBO(num6,           &kp N6,            KPM_RT0 KPM_RM0,                 COMBO_LAYERS)
+COMBO(num7,           &kp N7,            KPM_RT1 KPM_RM1,                 COMBO_LAYERS)
+COMBO(num8,           &kp N8,            KPM_RT2 KPM_RM2,                 COMBO_LAYERS)
+COMBO(num9,           &kp N9,            KPM_RT3 KPM_RM3,                 COMBO_LAYERS)
 
 // Parenthesis, bracket, and brace
 COMBO(lpar,           &kp LPAR,          KPM_LT3 KPM_LM1,                 COMBO_LAYERS)
