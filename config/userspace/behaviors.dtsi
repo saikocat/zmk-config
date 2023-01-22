@@ -8,7 +8,7 @@
 &mt {
     flavor = "tap-preferred";
     tapping-term-ms = <TAPPING_TERM>;
-    quick-tap-ms = <QUICK_TAP_MS>;
+    quick-tap-ms = <TAPPING_TERM>;          // disable TAPPING_FORCE_HOLD - allow holding down BSPC repeatedly
 };
 
 &lt {
