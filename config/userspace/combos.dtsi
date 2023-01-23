@@ -83,11 +83,11 @@ COMBO(enter_cross,    &kp ENTER,         KPM_LM1 KPM_RM1,                 COMBO_
 COMBO(enter_thumb,    &kp ENTER,         KPM_LH0 KPM_RH0,                 COMBO_LAYERS)
 
 // Modifiers
-COMBO(lsft,           &skq LSHFT,        KPM_LM3 KPM_LM2,                 COMBO_LAYERS)
+COMBO(lsft,           &sk LSHFT,         KPM_LM3 KPM_LM2,                 COMBO_LAYERS)
+COMBO(lctrl,          &sk LCTRL,         KPM_LM3 KPM_LM1,                 COMBO_LAYERS)
+COMBO(lalt,           &sk LALT,          KPM_LB3 KPM_LB4,                 COMBO_LAYERS)
+COMBO(lgui,           &sk LGUI,          KPM_LM4 KPM_LB4,                 COMBO_LAYERS)
 COMBO(caps_word,      &caps_word,        KPM_LT3 KPM_LT2,                 COMBO_LAYERS)
-COMBO(lctrl,          &skq LCTRL,        KPM_LM3 KPM_LM1,                 COMBO_LAYERS)
-COMBO(lalt,           &skq LALT,         KPM_LB3 KPM_LB4,                 COMBO_LAYERS)
-COMBO(lgui,           &skq LGUI,         KPM_LM4 KPM_LB4,                 COMBO_LAYERS)
 
 // Utility
 COMBO(word_del,       &kp LC(BSPC),      KPM_RT2 KPM_RT3,                 COMBO_LAYERS)
