@@ -114,7 +114,7 @@ LAYER(func,
 )
 
 LAYER(special,
-    &bootloader   &reset        XXXX         XXXX         XXXX
+    &bootloader   &sys_reset    XXXX         XXXX         XXXX
     &bt BT_CLR    XXXX          &bt BT_PRV   &bt BT_NXT   XXXX
     XXXX          &bt BT_SEL 2  &bt BT_SEL 1 &bt BT_SEL 0 XXXX
                                 XXXX         XXXX         XXXX
