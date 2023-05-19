@@ -10,7 +10,7 @@
 // name, combo_bindings, keypos, combo_layers, combo_timeout
 
 // Numpad
-COMBO(numpad1,        &kp N0,            KPM_RH1 KPM_RM0,                 COMBO_LAYERS)
+COMBO(numpad0,        &kp N0,            KPM_RH1 KPM_RM0,                 COMBO_LAYERS)
 COMBO(numpad1,        &kp N1,            KPM_RH1 KPM_RB1,                 COMBO_LAYERS)
 COMBO(numpad2,        &kp N2,            KPM_RH1 KPM_RB2,                 COMBO_LAYERS)
 COMBO(numpad3,        &kp N3,            KPM_RH1 KPM_RB3,                 COMBO_LAYERS)
