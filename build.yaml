@@ -20,6 +20,10 @@ include:
     shield: corne_right
     cmake-args: "-DKEYMAP_FILE=${GITHUB_WORKSPACE}/config/toraneko.keymap"
   - board: nice_nano_v2
+    shield: singapura_left
+  - board: nice_nano_v2
+    shield: singapura_right
+  - board: nice_nano_v2
     shield: settings_reset
   - board: seeeduino_xiao_ble
     shield: manchikan_left
