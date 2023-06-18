@@ -4,8 +4,8 @@
 #pragma once
 
 // clang-format off
-#define NICEVIEW_SPI(board, cs_pin)                 \
-    &nice_view_spi {                                \
-        cs-gpios = <board cs_pin GPIO_ACTIVE_HIGH>; \
-    };
+#define NICEVIEW_SPI(board, cs_pin)             \
+&nice_view_spi {                                \
+    cs-gpios = <board cs_pin GPIO_ACTIVE_HIGH>; \
+};
 // clang-format on

@@ -7,7 +7,7 @@
 
 #include "userspace/nice_view_spi.h"
 
-NICEVIEW_SPI(&pro_micro, 10);
+NICEVIEW_SPI(&pro_micro, 10)
 
 / {
     combos {
