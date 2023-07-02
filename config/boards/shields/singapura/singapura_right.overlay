@@ -7,6 +7,18 @@
     col-offset = <5>;
 };
 
+&layout_user_transform {
+    col-offset = <5>;
+};
+
+&without_5waysswitch_transform {
+    col-offset = <5>;
+};
+
+&without_5waysswitch_stacked_transform {
+    col-offset = <5>;
+};
+
 &kscan0 {
     col-gpios
         = <&pro_micro 14 GPIO_ACTIVE_HIGH>
