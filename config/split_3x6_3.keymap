@@ -1,6 +1,8 @@
 // Copyright 2023 saikocat (@saikocat)
 // SPDX-License-Identifier: MIT
 
+// TODO: BROKEN - DO NOT USE
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
@@ -29,7 +31,7 @@ LAYER(qwerty,
     &kp TAB   &kp Q    &kp W    &kp E       &kp R      &kp T
     &kp LCTL  &kp A    &kp S    &kp D       &kp F      &kp G
     &skq LALT &kp Z    &kp X    &kp C       &kp V      &kp B
-                                &lt DEL_LWR  &lt BSPC_NUM  &omss_caps_dance
+                                &lt DEL_LWR  &lt BSPC_NUM  &td_omss_caps
     &kp Y    &kp U    &kp I       &kp O      &kp P     &kp BSPC
     &kp H    &kp J    &kp K       &kp L      &kp SEMI  &kp SQT
     &kp N    &kp M    &kp COMMA   &kp DOT    &kp FSLH  &mt LSHFT ENTER
@@ -40,7 +42,7 @@ LAYER(colemak_dh,
     &kp TAB   &kp Q    &kp W    &kp F       &kp P      &kp B
     &kp LCTL  &kp A    &kp R    &kp S       &kp T      &kp G
     &skq LALT &kp Z    &kp X    &kp C       &kp D      &kp V
-                                &lt DEL_LWR  &lt BSPC_NUM  &omss_caps_dance
+                                &lt DEL_LWR  &lt BSPC_NUM  &td_omss_caps
     &kp J    &kp L    &kp U       &kp Y      &kp SEMI
     &kp M    &kp N    &kp E       &kp I      &kp O
     &kp K    &kp H    &kp COMMA   &kp DOT    &kp FSLH

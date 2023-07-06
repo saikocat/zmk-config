@@ -4,34 +4,29 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 
 #include "userspace/nice_view.h"
-
 OVERRIDE_NICEVIEW_CS(&pro_micro, 10)
 
+#define COMBO_LAYERS _QWERTY _COLEMAK_DH _NAV _NUMPAD
+#define KEYPOS_MORPH "userspace/keypos_morph/keypos_split_3x5_3_stacked.h"
+#define LAYOUT_USER_TRANSFORM LAYOUT_3X5_3_STACKED_TRANSFORM
+#define LAYOUT_LAYERS "userspace/layer/split_3x5_3_stacked.dtsi"
+
+#include "keymap_common.h"
+
+// Custom layout transform
+&layout_user_transform LAYOUT_USER_TRANSFORM
+
 / {
-    combos {
-        compatible = "zmk,combos";
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
-        };
+    chosen {
+        zmk,matrix_transform = &layout_user_transform;
     };
 
     keymap {
         compatible = "zmk,keymap";
-
-        layer_base {
-            label = "BASE";
-            bindings = <
-                   &kp Q &kp W &kp E &kp R &kp T     &kp Y &kp U  &kp I     &kp O   &kp P
-                   &kp A &kp S &kp D &kp F &kp G     &kp H &kp J  &kp K     &kp L   &kp SEMI
-                   &kp Z &kp X &kp C &kp V &kp B     &kp N &kp M  &kp COMMA &kp DOT &kp FSLH
-                     &kp TAB &kp SPACE &kp LSHFT     &kp LCTRL &kp RET &kp ESC
-    &kp SPACE &kp UP &kp LEFT &kp RIGHT &kp DOWN     &kp DOWN &kp RIGHT &kp LEFT &kp UP &kp SPACE
-            >;
-        };
+        #include LAYOUT_LAYERS
     };
 };
 

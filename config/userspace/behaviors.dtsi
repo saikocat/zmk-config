@@ -22,7 +22,7 @@
 };
 
 &caps_word {
-    continue-list = <UNDERSCORE MINUS BSPC RSHFT LSHFT>;
+    continue-list = <UNDERSCORE MINUS BSPC DELETE>;
 };
 
 / {
@@ -34,7 +34,9 @@
             bindings = <&kp>;
             release-after-ms = <SK_RELEASE_AFTER>;
             quick-release;
+            ignore-modifiers;
         };
+
         ht: hold_tap {
             label = "HOLD_TAP";
             compatible = "zmk,behavior-hold-tap";
@@ -47,7 +49,7 @@
         };
 
         // tap: skq shift | double-tap: caps_word
-        omss_caps_dance: omss_caps_dance {
+        td_omss_caps: td_omss_caps {
             label = "OMSS_CAPS_DANCE";
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
