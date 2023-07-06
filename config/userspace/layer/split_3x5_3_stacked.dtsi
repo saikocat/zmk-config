@@ -1,0 +1,101 @@
+// Copyright 2023 saikocat (@saikocat)
+// SPDX-License-Identifier: MIT
+
+LAYER(qwerty,
+    &kp Q    &kp W    &kp E       &kp R      &kp T
+    &kp A    &kp S    &kp D       &kp F      &kp G
+    &kp Z    &kp X    &kp C       &kp V      &kp B
+                                  &lt DEL_LWR  &lt BSPC_NUM  &td_omss_caps
+    &kp Y    &kp U    &kp I       &kp O      &kp P
+    &kp H    &kp J    &kp K       &kp L      &kp SEMI
+    &kp N    &kp M    &kp COMMA   &kp DOT    &kp FSLH
+    &lt ENT_ADJ  &kp SPACE  &lt TAB_RSE
+)
+
+LAYER(colemak_dh,
+    &kp Q        &kp W    &kp F       &kp P      &kp B
+    &kp A        &kp R    &kp S       &kp T      &kp G
+    &mt Z_ALT    &kp X    &kp C       &kp D      &kp V
+                                  &lt DEL_LWR  &lt BSPC_NUM  &td_omss_caps
+    &kp J    &kp L    &kp U       &kp Y      &kp SEMI
+    &kp M    &kp N    &kp E       &kp I      &kp O
+    &kp K    &kp H    &kp COMMA   &kp DOT    &mt FSLH_CTRL
+    &lt ENT_ADJ  &kp SPACE  &lt TAB_RSE
+)
+
+LAYER(game_overwatch,
+    &kp TAB   &kp Q   &kp W    &kp E       &kp R
+    &kp LCTL  &kp A   &kp S    &kp D       &kp F
+    &kp LSHFT &kp Z   &kp X    &kp C       &kp V
+                      &mo _GAME_NUMPAD  &kp SPACE  &mt LALT ESC
+    ____     ____     ____     ____     ____
+    ____     ____     ____     ____     ____
+    ____     ____     ____     ____     ____
+    ____     ____     &mo _RAISE
+)
+
+LAYER(game_numpad,
+    &kp LC(N3)    &kp LC(N2)    &kp LC(N1)    &kp LC(N0)    &kp LC(N4)
+    &kp N3        &kp N2        &kp N1        &kp N0        &kp N4
+    &kp F3        &kp F2        &kp F1        &kp F5        &kp F4
+                                ____          ____          &to _COLEMAK_DH
+    ____     ____     ____     ____     ____
+    ____     ____     ____     ____     ____
+    ____     ____     ____     ____     ____
+    ____     ____     &mo _RAISE
+)
+
+LAYER(lower,
+    ____           &kp LC(W)       &kt LALT          &caps_word     &kp LG(SPACE)
+    &kp LC(LEFT)   &kp LC(RIGHT)   &kp LC(LS(TAB))   &kp LC(TAB)    ____
+    &kp LC(Z)      &kp LC(X)       &kp LC(C)         &kp LA(ESC)    &kp LC(V)
+                                                  ____     ____     &to _GAME_OVERWATCH
+    ____     ____     ____     ____     ____
+    ____     ____     ____     ____     ____
+    ____     ____     ____     ____     ____
+    ____     ____     &mo _ADJUST
+)
+
+LAYER(raise,
+    ____            ____        &kp UP      ____         ____
+    &kp LS(LEFT)    &kp LEFT    &kp DOWN    &kp RIGHT    &kp LS(RIGHT)
+    ____            ____        ____        ____         ____
+                                &mo _SPECIAL    ____     ____
+    &to _QWERTY    &to _COLEMAK_DH   &to _RAISE   &to _GAME_OVERWATCH   &kp PSCRN
+    &kp LEFT       &kp DOWN          &kp UP       &kp RIGHT              &kp INS
+    &kp HOME       &kp PG_DN         &kp PG_UP    &kp END                ____
+    ____           ____              ____
+)
+
+LAYER(numpad,
+    ____     ____     ____     ____     ____
+    ____     ____     ____     ____     ____
+    ____     ____     ____     ____     ____
+                      ____     ____     ____
+    &kp KP_MULTIPLY    &kp N7    &kp N8    &kp N9    &kp KP_EQUAL
+    &kp N0             &kp N4    &kp N5    &kp N6    &kp KP_PLUS
+    &kp KP_DIVIDE      &kp N1    &kp N2    &kp N3    &kp KP_MINUS
+    ____     &kp N0   &kp KP_DOT
+)
+
+LAYER(func,
+    ____     ____     ____     ____     ____
+    ____     ____     ____     ____     ____
+    ____     ____     ____     ____     ____
+                      ____     ____     ____
+    ____     &kp F7   &kp F8   &kp F9   &kp F10
+    ____     &kp F4   &kp F5   &kp F6   &kp F11
+    ____     &kp F1   &kp F2   &kp F3   &kp F12
+    ____     ____     ____
+)
+
+LAYER(special,
+    &bootloader   &sys_reset    XXXX         XXXX         &ext_power EP_ON
+    &bt BT_CLR    XXXX          &bt BT_PRV   &bt BT_NXT   XXXX
+    XXXX          &bt BT_SEL 2  &bt BT_SEL 1 &bt BT_SEL 0 XXXX
+                                XXXX         XXXX         XXXX
+    &ext_power EP_ON  XXXX     XXXX     XXXX     XXXX
+    XXXX     XXXX     XXXX     XXXX     XXXX
+    XXXX     XXXX     XXXX     XXXX     XXXX
+    XXXX     XXXX     XXXX
+)
