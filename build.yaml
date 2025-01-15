@@ -11,23 +11,23 @@
 #   - board: nice_nano_v2
 #     shield: reviung41
 #
----
-include:
-  - board: nice_nano_v2
-    shield: corne_left
-    cmake-args: "-DKEYMAP_FILE=${GITHUB_WORKSPACE}/config/toraneko.keymap"
-  - board: nice_nano_v2
-    shield: corne_right
-    cmake-args: "-DKEYMAP_FILE=${GITHUB_WORKSPACE}/config/toraneko.keymap"
-  - board: nice_nano_v2
-    shield: singapura_left nice_view_adapter nice_view
-  - board: nice_nano_v2
-    shield: singapura_right nice_view_adapter nice_view
-  - board: nice_nano_v2
-    shield: settings_reset
-  - board: seeeduino_xiao_ble
-    shield: manchikan_left
-  - board: seeeduino_xiao_ble
-    shield: manchikan_right
-  - board: seeeduino_xiao_ble
-    shield: settings_reset_xiao
+#---
+#include:
+#  - board: nice_nano_v2
+#    shield: corne_left
+#    cmake-args: "-DKEYMAP_FILE=${GITHUB_WORKSPACE}/config/toraneko.keymap"
+#  - board: nice_nano_v2
+#    shield: corne_right
+#    cmake-args: "-DKEYMAP_FILE=${GITHUB_WORKSPACE}/config/toraneko.keymap"
+#  - board: nice_nano_v2
+#    shield: singapura_left nice_view_adapter nice_view
+#  - board: nice_nano_v2
+#    shield: singapura_right nice_view_adapter nice_view
+#  - board: nice_nano_v2
+#    shield: settings_reset
+#  - board: seeeduino_xiao_ble
+#    shield: manchikan_left
+#  - board: seeeduino_xiao_ble
+#    shield: manchikan_right
+#  - board: seeeduino_xiao_ble
+#    shield: settings_reset_xiao
