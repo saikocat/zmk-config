@@ -1,9 +1,0 @@
-# Copyright 2022 saikocat (@saikocat)
-# SPDX-License-Identifier: MIT
-
-if SHIELD_SETTINGS_RESET_XIAO
-
-    config ZMK_KEYBOARD_NAME
-        default "Settings Reset"
-
-endif
