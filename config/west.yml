@@ -2,10 +2,20 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: caksoylar
+      url-base: https://github.com/caksoylar
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+
+    # ZMK Extra Modules
+    - name: zmk-rgbled-widget
+      remote: caksoylar
+      revision: main
+    - name: zmk-smart-toggle
+      remote: caksoylar
+      revision: main
   self:
     path: config
